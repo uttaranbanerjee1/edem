@@ -28,7 +28,7 @@
     }
     
     .navigation-menu {
-        padding: 40px 40px;
+        padding: 25px 40px;
     }
     
     .navigation-menu a {
@@ -52,6 +52,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 100px 90px;
+    }
+
+    .form-group {
+        margin-bottom: .5rem;
     }
     
     .font-weight-medium {
@@ -94,6 +98,22 @@
         background-color: #c1d6eb;
         border-color: #c1d6eb;
     }
+
+    .btn-primary-cust {
+        color: #ffffff;
+        background-color: #0059ff;
+        border-color: #0059ff;
+        padding: .8rem 3rem;
+        margin-top: 1rem;
+        margin-right: 1.2rem;
+        border-radius: 5px;
+    }
+    
+    .btn-primary-cust:hover {
+        color: #03123b;
+        background-color: #c1d6eb;
+        border-color: #c1d6eb;
+    }
     
     .cust-footer {
         position: fixed;
@@ -126,4 +146,78 @@
     
     .country-select-2 .form-control {
         padding: 0.65rem 2rem;
+    }
+
+
+    .large-checkbox .custom-control-label::before {
+        position: absolute;
+        top: 0.25rem;
+        left: 0;
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        pointer-events: none;
+        content: "";
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #ffffff;
+        border: 1px solid #cacaca;
+    }
+    .large-checkbox .custom-control-label::after {
+        position: absolute;
+        top: 0.25rem;
+        left: 0;
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        content: "";
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+
+
+    .large-checkbox .custom-control-label {
+        margin-bottom: 0;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    }
+
+
+    .medium-checkbox .custom-control-label::before {
+        position: absolute;
+        top: 0.25rem;
+        left: 0;
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        pointer-events: none;
+        content: "";
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #ffffff;
+        border: 1px solid #cacaca;
+    }
+    .medium-checkbox .custom-control-label::after {
+        position: absolute;
+        top: 0.25rem;
+        left: 0;
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        content: "";
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+
+    .medium-checkbox .custom-control-label {
+        margin-bottom: 0;
+    margin-left: .5rem;
+    
+    
     }

@@ -18,7 +18,7 @@
     <div class="container-fluid">
     <div class="row">
         <div class="col-md-7 bg-white left-form-panel">
-        <div class="navigation-menu p-5 text-right">
+        <div class="navigation-menu text-right">
         <div class="dropdown d-inline mr-4">
   <button class="btn btn-lang-drop dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   <span class="flag-icon flag-icon-gb-eng mr-2"></span> English
@@ -33,34 +33,29 @@
         </div>
 
         <div class="left-form-part">
-            <form>
+            <form class="">
             
-            <div>
-            <h4 class="font-weight-medium mt-5">Borrower is a...</h4>
-            <a class="btn btn-outline-trans" href="#" role="button">Natural Person</a>
-            <a class="btn btn-outline-trans" href="#" role="button">Legal Entity</a>
-            </div>
-
-            
-            <div>
-            <div class="form-group country-select">
-            <h4 class="font-weight-medium mt-5">The borrower is domiciled in...</h4>
-      <select id="inputState" class="form-control mt-3">
-        <option selected>Germany</option>
-        <option>England</option>
-      </select>
+            <div class="form-row">
+    <div class="form-group col-md-12 mb-0">
+    <h4 class="font-weight-medium ">Enter Activation Code</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua.</p>
+     </div>
+    <div class="form-group col-md-6">
+     <input type="text" class="form-control" id="inputFirstName" placeholder="XXXXXX">
     </div>
-             </div>
+    
+   
+  </div>
 
-            <div class="mt-4">
-            <a class="btn btn-light-blue" href="index.php" role="button">Back</a>
-            <a class="btn btn-light-blue" href="existing-property.php" role="button">Next</a>
-            </div>
-            </form>
+  <a class="btn btn-primary-cust" href="#" role="button">Get Result</a>
+    </form>
+
+
         </div>
 
         <div class="cust-footer">
-          <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy Statement</span></p>
+          <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH </span> | <span> Imprint – Privacy Statement</span></p>
         </div>
         </div>
         <div class="col-md-5 right-annim-panel">
