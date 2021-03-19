@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="css/custom.css">
 
-    <title>Hello, world!</title>
+    <title>EDEM</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -24,7 +24,7 @@
   <span class="flag-icon flag-icon-gb-eng mr-2"></span> English
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de mr-2"></span> Germeny</a>
+    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de mr-2"></span> Germany</a>
    
   </div>
 </div>
@@ -33,15 +33,28 @@
         </div>
 
         <div class="left-form-part">
-          <form>
-            <h4 class="font-weight-medium mt-5">You are looking to finance...</h4>
+            <form>
+            
             <div>
-            <a class="btn btn-outline-trans" href="#" role="button">An existing property</a>
-            <a class="btn btn-outline-trans" href="#" role="button">A project development</a>
+            <h4 class="font-weight-medium mt-5">Borrower is a...</h4>
+            <a class="btn btn-outline-trans" href="#" role="button">Natural Person</a>
+            <a class="btn btn-outline-trans" href="#" role="button">Legal Entity</a>
             </div>
 
+            
+            <div>
+            <div class="form-group country-select">
+            <h4 class="font-weight-medium mt-5">The borrower is domiciled in...</h4>
+      <select id="inputState" class="form-control">
+        <option selected>Germany</option>
+        <option>England</option>
+      </select>
+    </div>
+             </div>
+
             <div class="mt-4">
-            <a class="btn btn-light-blue" href="borrower-type.php" role="button">Next</a>
+            <a class="btn btn-light-blue" href="index.php" role="button">Back</a>
+            <a class="btn btn-light-blue" href="existing-property.php" role="button">Next</a>
             </div>
             </form>
         </div>
