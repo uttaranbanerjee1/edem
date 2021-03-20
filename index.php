@@ -43,12 +43,12 @@
                         <div>
                             <ul class="select-property">
                                 <li>
-                                    <input type="radio" id="existing" name="existing" />
+                                    <input type="radio" id="existing" name="amount" />
                                     <label for="existing">An existing
                                         property</label>
                                 </li>
                                 <li>
-                                    <input type="radio" id="development" name="development" />
+                                    <input type="radio" id="development" name="amount" />
                                     <label for="development">A project development</label>
                                 </li>
 
@@ -68,10 +68,7 @@
                     </form>
                 </div>
 
-                <div class="cust-footer">
-                    <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy
-                            Statement</span></p>
-                </div>
+               
             </div>
             <div class="col-md-5 right-annim-panel">
                 <h1 class="display-4 font-weight-medium">The Seamless
@@ -81,7 +78,10 @@
         </div>
     </div>
 
-
+    <div class="cust-footer">
+                    <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy
+                            Statement</span></p>
+                </div>
 
 
 
@@ -100,24 +100,7 @@
         $('.lang_changer').selectpicker();
     });
     </script>
-    <script>
-    $(document).ready(function() {
-        $("#form1").validate({
-            rules: {
-                existing: "required",
-            },
-            messages: {
-                existing: "*Please select your property type"
 
-
-            }
-        })
-
-        $('#btn').click(function() {
-            $("#form1").valid();
-        });
-    });
-    </script>
 
 
 

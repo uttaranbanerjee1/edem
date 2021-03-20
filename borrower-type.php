@@ -84,10 +84,6 @@
                     </form>
                 </div>
 
-                <div class="cust-footer">
-                    <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy
-                            Statement</span></p>
-                </div>
             </div>
             <div class="col-md-5 right-annim-panel">
                 <h1 class="display-4 font-weight-medium">The Seamless
@@ -98,7 +94,10 @@
     </div>
 
 
-
+    <div class="cust-footer">
+                    <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy
+                            Statement</span></p>
+                </div>
 
 
 
@@ -116,24 +115,6 @@
     });
     </script>
 
-    <script>
-    $(document).ready(function() {
-        $("#form2").validate({
-            rules: {
-                Natural: "required",
-            },
-            messages: {
-                Natural: "*Please select your property type"
-
-
-            }
-        })
-
-        $('#btn').click(function() {
-            $("#form2").valid();
-        });
-    });
-    </script>
 
 </body>
 

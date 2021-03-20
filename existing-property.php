@@ -86,10 +86,18 @@
   </div>
 
 
-  <div class="form-row mt-3">
+  <div class="form-row mt-3 purchase-contract">
     <div class="form-group col-md-12 mb-0">
     <h5 class="font-weight-medium ">A purchase contract has been signed</h5>
      </div>
+     <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+    <label class="custom-control-label" for="customRadio">Yes</label>
+  </div>
+  <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+    <label class="custom-control-label" for="customRadio2">No</label>
+  </div>
     
     </div>
 
@@ -100,9 +108,7 @@
             </form>
         </div>
 
-        <div class="cust-footer">
-          <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy Statement</span></p>
-        </div>
+      
         </div>
         <div class="col-md-5 right-annim-panel">
         <h1 class="display-4 font-weight-medium">The Seamless
@@ -112,7 +118,10 @@ Projects And Capital</h1>
     </div>
     </div>
 
-
+    <div class="cust-footer">
+                    <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy
+                            Statement</span></p>
+                </div>
 
 
 

@@ -89,38 +89,89 @@
   </div>
 
 
-  <div class="form-row mt-2">
+  <div class="form-row mt-2 business-plan">
     <div class="form-group col-md-6 mb-0">
     <h5 class="font-weight-medium">Business plan after completion</h5>
 
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customRadio" name="example" value="Lease" >
+    <label class="custom-control-label" for="customRadio">Lease</label>
+  </div>
 
-    <div class="custom-control custom-checkbox large-checkbox mb-3">
-      <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-      <label class="custom-control-label" for="customCheck">Lease</label>
+
+
+  <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="Sale">
+    <label class="custom-control-label" for="customRadio2">Sale</label>
+  </div>
+
+
+
+  <div id="group1">
+<div id="yes" class="hidden">
+  <p>
+    Yes
+  </p>
+</div>
+<div id="no" class="hidden">
+  <p>
+    No
+  </p>
+</div>
+<div id="maybe" class="hidden">
+  <p>
+    Maybe
+  </p>
+</div>
+</div>
+
     </div>
 
-    <div class="custom-control custom-checkbox large-checkbox mb-3">
-      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
-      <label class="custom-control-label" for="customCheck2">Sale</label>
-    </div>
 
-    </div>
-
-
-    <div class="form-group col-md-6 mb-0">
-    <h5 class="font-weight-medium">Business plan after completion</h5>
-
-    
+    <div class="purchase-contract">
+    <div class="form-group col-md-12 mb-0">
+    <h5 class="font-weight-medium ">A purchase contract has been signed</h5>
      </div>
+     <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customRadio3" name="example" value="Yes">
+    <label class="custom-control-label" for="customRadio3">Yes</label>
+  </div>
+  <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customRadio4" name="example" value="No">
+    <label class="custom-control-label" for="customRadio4">No</label>
+  </div>
+    
+    </div>
     </div>
 
   <div class="form-row mt-4">
     <div class="form-group col-md-12 mb-0">
     <h5 class="font-weight-medium">Number of comparable projects that were successfully completed</h5>
-    <a class="btn btn-outline-trans mr-2" href="#" role="button">0</a>
-    <a class="btn btn-outline-trans mr-2" href="#" role="button">1 - 5</a>
-    <a class="btn btn-outline-trans mr-2" href="#" role="button">6 - 20</a>
-    <a class="btn btn-outline-trans" href="#" role="button">20+</a>
+
+    <ul class="select-property">
+                                    <li>
+                                        <input type="radio" id="zero-value" name="amount" />
+                                        <label for="zero-value">0</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="one_five" name="amount" />
+                                        <label for="one_five">1-5</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="six_twinty" name="amount" />
+                                        <label for="six_twinty">6-20</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="twenty_plus" name="amount" />
+                                        <label for="twenty_plus">20+</label>
+                                    </li>
+
+
+
+
+                                </ul>
+
+    
     
     </div>
  </div>
@@ -135,9 +186,7 @@
 
         </div>
 
-        <div class="cust-footer">
-          <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH </span> | <span> Imprint – Privacy Statement</span></p>
-        </div>
+      
         </div>
         <div class="col-md-5 right-annim-panel">
         <h1 class="display-4 font-weight-medium">The Seamless
@@ -147,7 +196,10 @@ Projects And Capital</h1>
     </div>
     </div>
 
-
+    <div class="cust-footer">
+                    <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy
+                            Statement</span></p>
+                </div>
 
 
 
@@ -163,6 +215,18 @@ Projects And Capital</h1>
     $(function(){
     $('.lang_changer').selectpicker();
 });
+    </script>
+
+    <script>
+      $("input:radio[name='example']").click(function() {
+  $("#group1 .hidden").hide().removeClass("shown");
+  $("#" + $(this).val()).show();
+  setTimeout(function() {
+    $(".hidden").addClass("shown");
+  }, 0);
+});
+
+
     </script>
 
   </body>
