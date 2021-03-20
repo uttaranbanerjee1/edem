@@ -33,23 +33,36 @@
         </div>
 
         <div class="left-form-part">
-            <form class="">
-            
-            <div class="form-row">
-    <div class="form-group col-md-12 mb-0">
-    <h4 class="font-weight-medium ">Enter Activation Code</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua.</p>
-     </div>
-    <div class="form-group col-md-6">
-     <input type="text" class="form-control" id="inputFirstName" placeholder="XXXXXX">
-    </div>
-    
-   
-  </div>
-
-  <a class="btn btn-primary-cust" href="results.php" role="button">Get Result</a>
-    </form>
+        <table class="table table-striped output-result mt-5">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 
 
         </div>
