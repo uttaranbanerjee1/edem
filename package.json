@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "flag-icon-css": "^3.5.0"
+    "flag-icon-css": "^3.5.0",
+    "select2": "^4.1.0-rc.0",
+    "select2-bootstrap-theme": "0.1.0-beta.10"
   },
   "devDependencies": {},
   "scripts": {

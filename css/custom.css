@@ -8,6 +8,101 @@ body {
   padding: 0;
 }
 
+#dLabel {
+  border-radius: 4px;
+  background-color: #fff;
+  border: solid 0px #cccccc;
+  color: #000;
+}
+
+.caret {
+  float: right;
+  margin-top: 9px;
+  display: block;
+}
+
+.language-bar .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+
+  float: left;
+  min-width: 7.5rem;
+  padding: 0;
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 8%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+
+.dropdown-menu {
+  width: 160px;
+  padding: 0;
+  margin: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.dropdown button:hover,
+.dropdown button:focus {
+  border: none;
+  outline: 0;
+}
+
+.dropdown.open button#dLabel {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  border: solid 1px #666;
+  border-bottom: none;
+}
+
+.dropdown.open ul {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  border: solid 1px #666;
+  border-top: none;
+  height: auto;
+  overflow-y: hidden;
+}
+
+.dropdown-menu li {
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 7.5px 15px;
+  border-top: solid 1px #f3f3f3;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ccc;
+}
+
+.navigation-menu .support-button {
+  color: #000;
+}
+
+.navigation-menu .support-button a:hover {
+  color: #000;
+}
+
+.navigation-menu .login-button {
+  border: 1px solid black;
+}
+
+.navigation-menu .login-button:hover {
+  border: 1px solid #007bff;
+  background-color: #ffffff;
+  color: #007bff;
+}
+
 .select-property li {
   margin: 0 5px 0 0;
   position: relative;
@@ -24,10 +119,12 @@ body {
 }
 
 .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
-  background-image: url(
-    data:image/svg + xml;charset=utf8,
-    %3Csvgxmlns="http://www.w3.org/2000/svg"viewBox="-4 -4 8 8"%3E%3Ccircler="3"fill="%23fff"/%3E%3C/svg%3E
-  );
+  background-image: url(../image/check-solid.svg);
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: transparent;
+  border: 1px solid #007bff;
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {

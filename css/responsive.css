@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px) {
+  .left-form-part {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navigation-menu {
+    padding: 15px 10px;
+  }
+  .select-property li {
+    margin: 0 5px 0 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .btn-light-blue {
+    color: #0059ff;
+    background-color: #f3f9ff;
+    border-color: #f3f9ff;
+    padding: 0.8rem 3rem;
+    margin-top: 0rem;
+    margin-right: 1.2rem;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .country-select .form-control {
+    width: 100%;
+  }
+  .right-annim-panel {
+    background-image: url(../image/right-big-image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 90px;
+    display: none;
+  }
+  .business-plan .custom-control {
+    position: relative;
+    display: inline-block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .btn-primary-cust {
+    color: #ffffff;
+    background-color: #0059ff;
+    border-color: #0059ff;
+    padding: 0.8rem 3rem;
+    margin-top: 1rem;
+    margin-right: 1.2rem;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}
