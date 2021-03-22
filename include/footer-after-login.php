@@ -15,6 +15,8 @@
     <script src="vendor/twbs/bootstrap/assets/js/vendor/popper.min.js" crossorigin="anonymous"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.js" crossorigin="anonymous"></script>
+    <script src="node_modules/datatables.net/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script src="node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
   
     <script>
     $(function() {
@@ -27,6 +29,9 @@ $('.dropdown-menu li').on('click', function() {
   var getValue = $(this).text();
   $('.dropdown-select').text(getValue);
 });
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
 </script>
 
 

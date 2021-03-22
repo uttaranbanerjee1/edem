@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"
         crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/flag-icon-css/css/flag-icon.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
    
 
     <link rel="stylesheet" href="css/custom.css">

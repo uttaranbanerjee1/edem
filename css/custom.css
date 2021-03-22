@@ -26,7 +26,6 @@ body {
   top: 100%;
   left: 0;
   z-index: 1000;
-
   float: left;
   min-width: 7.5rem;
   padding: 0;
@@ -40,6 +39,10 @@ body {
   border: 0px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
   box-shadow: 0 0 4px 0 rgb(0 0 0 / 8%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
 .dropdown-menu {

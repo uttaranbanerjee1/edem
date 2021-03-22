@@ -14,20 +14,6 @@
       </div>
 
 
-
-                    <!-- <div class="dropdown d-inline mr-4">
-                        <button class="btn btn-lang-drop dropdown-toggle" type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="flag-icon flag-icon-gb-eng mr-2"></span> English
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de mr-2"></span>
-                                Germeny</a>
-
-                        </div>
-                    </div> -->
-                    
-                    
                     <a href="#" class="btn btn-link support-button" role="button">Support</a>
                     <a href="javascript:void(0);" class="btn btn-outline-primary login-button" role="button" data-toggle="modal" data-target="#login">Login</a>
                 </div>
@@ -51,7 +37,7 @@
 		<div class="card-text">
 			<!--
 			<div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
-			<form>
+			<form action="my-account.php">
 				<!-- to error: add class "has-danger" -->
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email address</label>
