@@ -37,7 +37,7 @@
 		<div class="card-text">
 			<!--
 			<div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
-			<form action="my-account.php">
+			<form action="search-history.php">
 				<!-- to error: add class "has-danger" -->
 				<div class="form-group">
 					
