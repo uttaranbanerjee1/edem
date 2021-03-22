@@ -40,15 +40,16 @@
 			<form action="my-account.php">
 				<!-- to error: add class "has-danger" -->
 				<div class="form-group">
-					<label for="exampleInputEmail1">Email address</label>
-					<input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp">
+					
+					<input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
 				</div>
-				<div class="form-group">
-					<label for="exampleInputPassword1">Password</label>
-					<a  style="float:right;font-size:12px;"  role="button" href="#forget-password" data-toggle="modal" data-dismiss="modal">Forgot password?</a>
-					<input type="password" class="form-control form-control-sm" id="exampleInputPassword1">
+				<div class="form-group mt-3">
+					
+				
+					<input type="password" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Password">
+          <a  class="mt-2" style="float:right;font-size:12px;"  role="button" href="#forget-password" data-toggle="modal" data-dismiss="modal">Forgot password?</a>
 				</div>
-				<button type="submit" class="btn btn-primary btn-block mt-4">Sign in</button>
+				<button type="submit" class="btn btn-light-blue btn-block mt-5">Sign in</button>
 				
 			
 			</form>
@@ -86,11 +87,11 @@
 			<form action="#">
 				<!-- to error: add class "has-danger" -->
 				<div class="form-group">
-					<label for="exampleInputEmail1">Email address</label>
-					<input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+				
+					<input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required>
 				</div>
 				
-				<button type="submit" class="btn btn-primary btn-block">Recover Password</button>
+				<button type="submit" class="btn btn-light-blue btn-block mt-4">Recover Password</button>
 
 
                
