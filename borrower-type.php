@@ -1,9 +1,10 @@
 <?php include "include/header.php";?>
+
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-7 bg-white left-form-panel">
-            <?php include "include/navigation-before-login.php";?>
+                <?php include "include/navigation-before-login.php";?>
 
                 <div class="left-form-part">
                     <form id="form2" action="existing-property.php">
@@ -39,8 +40,8 @@
                             <div class="form-group country-select">
                                 <h4 class="font-weight-medium mt-5">The borrower is domiciled in...</h4>
                                 <select id="inputState" class="form-control mt-3">
-                                    <option selected>Germany</option>
-                                    <option>England</option>
+                                    <?php include "include/countries.php";?>
+
                                 </select>
                             </div>
                         </div>
@@ -57,6 +58,7 @@
                 <h1 class="display-4 font-weight-medium">The Seamless
                     Connection Between
                     Projects And Capital</h1>
+                <?php include "include/footer-text.php";?>
             </div>
         </div>
     </div>
