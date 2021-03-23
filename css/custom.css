@@ -403,17 +403,31 @@ body {
     border-radius: 5px;
 }
 
+.lease-bttn {
+    min-height: 1.5rem;
+    position: absolute;
+    padding-left: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 60% !important;
+    padding: 0.5rem .6rem !important;
+    left: 110px;
+    top: -7px;
+}
+
 .btn-primary-cust:hover {
     color: #03123b;
     background-color: #c1d6eb;
     border-color: #c1d6eb;
 }
 
-.cust-footer {
+.footer {
     position: absolute;
-    bottom: 0;
-    height: 100px;
-    padding: 30px 90px;
+    bottom: 14px;
+    line-height: 60px;
+    background-color: #ffffffdb;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    border-radius: 10px;
 }
 
 .left-form-part .form-control {
