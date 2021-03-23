@@ -43,10 +43,12 @@
                 <h1 class="display-4 font-weight-medium">The Seamless
                     Connection Between
                     Projects And Capital</h1>
+
+                    <?php include "include/footer.php";?>
             </div>
         </div>
     </div>
 
-    <?php include "include/footer.php";?>
+    
 
     

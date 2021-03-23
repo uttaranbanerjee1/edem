@@ -1,7 +1,7 @@
-<div class="cust-footer">
+<footer class="footer">
                     <p class="m-0 text-muted"><span>© 2021 – EDM Advisors GmbH</span> | <span>Imprint – Privacy
                             Statement</span></p>
-                </div>
+                </footer>
 
 
 
