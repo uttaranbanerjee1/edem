@@ -99,7 +99,7 @@
                             </div>
 
                             <div class="form-group col-md-12">
-                                <input type="text" class="form-control" id="inputRequiredMezzanine" placeholder="Required Mezzanine" disabled>
+                                <input type="text" class="form-control mezzanine" id="inputRequiredMezzanine" placeholder="Required Mezzanine" disabled>
                             </div>
                            
                           

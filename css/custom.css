@@ -573,7 +573,7 @@ body {
 /* Track */
 
  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #ffffff;
 }
 
 
@@ -589,4 +589,11 @@ body {
 
  ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+
+
+.mezzanine:disabled, .form-control[readonly] {
+    background-color: #f1f1f1;
+    opacity: 1;
 }
