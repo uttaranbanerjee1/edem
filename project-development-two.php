@@ -63,14 +63,50 @@
                             <div class="form-group col-md-6">
 
                             </div>
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control mt-1" id="inputPurchasePrice"
-                                    placeholder="Purchase Price or Estimated Market Value">
+                            <div class="form-group mt-3 col-md-6">
+                            <div class="purchase-contract">
+                                <div class="mb-0">
+                                    <h5 class="font-weight-medium ">A purchase contract has been signed</h5>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline mb-3">
+                                    <input type="radio" class="custom-control-input" id="customRadio3" name="example2" value="Yes">
+                                    <label class="custom-control-label" for="customRadio3">Yes</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="customRadio4" name="example2" value="No">
+                                    <label class="custom-control-label" for="customRadio4">No</label>
+                                </div>
+
+                            </div>
+                            </div>
+                            
+
+                        </div>
+
+
+                        <div class="form-row mt-4">
+                            <div class="form-group col-md-12 mb-0">
+                                <h4 class="font-weight-medium ">Capital Structure</h4>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" id="inputInvestment" placeholder="Total Investment">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control mt-1" id="inputFinancingTarget"
-                                    placeholder="Financing Target">
+                                <input type="text" class="form-control" id="inputAvailableEquity" placeholder="Available Equity">
                             </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="inputAvailableSeniorLoan" placeholder="Available Senior Loan">
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" id="inputRequiredMezzanine" placeholder="Required Mezzanine" disabled>
+                            </div>
+                           
+                          
+                            <div class="form-group col-md-6">
+
+                            </div>
+                            
 
                         </div>
 
@@ -120,25 +156,41 @@
                             </div>
 
 
-                            <div class="purchase-contract">
-                                <div class="form-group col-md-12 mb-0">
-                                    <h5 class="font-weight-medium ">A purchase contract has been signed</h5>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" class="custom-control-input" id="customRadio3" name="example2"
-                                        value="Yes">
-                                    <label class="custom-control-label" for="customRadio3">Yes</label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" class="custom-control-input" id="customRadio4" name="example2"
-                                        value="No">
-                                    <label class="custom-control-label" for="customRadio4">No</label>
-                                </div>
-
-                            </div>
+                           
                         </div>
 
+
                         <div class="form-row mt-4">
+                        <div class="form-group col-md-12 mb-0">
+                                <h5 class="font-weight-medium">Available securities</h5>
+
+                                <ul class="select-property">
+                                    <li>
+                                        <input type="radio" id="land_charge" name="amount" />
+                                        <label for="land_charge">Land Charge</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="guarantee" name="amount" />
+                                        <label for="guarantee">Guarantee</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="share_pledge" name="amount" />
+                                        <label for="share_pledge">Share Pledge</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="others" name="amount" />
+                                        <label for="others">Others</label>
+                                    </li>
+                             </ul>
+
+
+
+                            </div>
+                            </div>
+
+
+
+                        <div class="form-row mt-3">
                             <div class="form-group col-md-12 mb-0">
                                 <h5 class="font-weight-medium">Number of comparable projects that were successfully
                                     completed</h5>

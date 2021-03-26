@@ -9,17 +9,37 @@
 
                 <div class="left-form-part">
                     <form id="form1" action="borrower-type.php">
-                        <h4 class="font-weight-medium mt-5">You are looking to finance...</h4>
+                        <h4 class="font-weight-medium mt-5">What do you need?</h4>
+                        <div>
+                            <ul class="select-property">
+                                <li>
+                                    <input type="radio" id="senior_financing" name="amount" />
+                                    <label for="senior_financing">Senior Financing</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="mezzanine_financing" name="amount" />
+                                    <label for="mezzanine_financing">Mezzanine Financing</label>
+                                </li>
+
+
+
+
+                            </ul>
+
+
+                        </div>
+
+                        <h4 class="font-weight-medium mt-3">For</h4>
                         <div>
                             <ul class="select-property">
                                 <li>
                                     <input type="radio" id="existing" name="amount" />
-                                    <label for="existing">An existing
-                                        property</label>
+                                    <label for="existing">An Existing
+                                        Property</label>
                                 </li>
                                 <li>
                                     <input type="radio" id="development" name="amount" />
-                                    <label for="development">A project development</label>
+                                    <label for="development">A Project Development</label>
                                 </li>
 
 
