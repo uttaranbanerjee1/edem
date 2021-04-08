@@ -7,7 +7,8 @@
 <div class="login">
     <!-- BEGIN login-content -->
     <div class="login-content">
-        <form action="index" method="POST" name="login_form">
+
+        <form action="{{url('/index')}}" method="GET" name="login_form">
             <h1 class="text-center">Sign In</h1>
             <div class="text-muted text-center mb-4">
                 For your protection, please verify your identity.

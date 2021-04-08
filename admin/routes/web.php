@@ -26,6 +26,10 @@ Route::get('/banks/senior_financing', function () {
     return view('/senior_financing');
 });
 
+Route::get('/banks/new_senior_financing', function () {
+    return view('/new_senior_financing');
+});
+
 Route::get('/banks/mezzanine_financing', function () {
     return view('/mezzanine_financing');
 });

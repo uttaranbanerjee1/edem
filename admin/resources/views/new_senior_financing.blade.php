@@ -48,9 +48,7 @@
                             </div>
 
                             <div class="p-2 bd-highlight">
-                                <a class="btn btn-primary" href="{{url('/banks/new_senior_financing')}}"
-                                    role="button">Add
-                                    New Entry</a>
+                                <a class="btn btn-primary" href="{{url('/')}}" role="button">Add New Entry</a>
 
                             </div>
                         </div>
