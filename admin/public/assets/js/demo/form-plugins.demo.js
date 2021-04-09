@@ -199,6 +199,9 @@ var handleRenderSelectPicker = function() {
     $('#ex-multiselect').picker();
     $('#ex-search').picker({ search: true });
     $('#where-germany').picker({ search: true });
+    $('#what-permits').picker({ search: true });
+    $('#what-type').picker({ search: true });
+    $('#usage-types').picker({ search: true });
 };
 
 

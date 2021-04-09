@@ -15,9 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('/index');
+    return view('/page-login');
 });
 
+Route::get('/index', function () {
+    return view('/index');
+});
 Route::get('/analytics', function () {
     return view('/analytics');
 });
@@ -34,8 +37,24 @@ Route::get('/banks/mezzanine_financing', function () {
     return view('/mezzanine_financing');
 });
 
+Route::get('/banks/new_mezzanine_financing', function () {
+    return view('/new_mezzanine_financing');
+});
+
 Route::get('/users', function () {
     return view('/users');
+});
+
+Route::get('/search-history', function () {
+    return view('/search-history');
+});
+
+Route::get('/forget_password', function () {
+    return view('/forget_password');
+});
+
+Route::get('/all-modal', function () {
+    return view('/all-modal');
 });
 
 Route::get('/email/inbox', function () {

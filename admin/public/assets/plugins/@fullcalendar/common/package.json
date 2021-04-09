@@ -1,26 +1,20 @@
 {
-  "_args": [
-    [
-      "@fullcalendar/common@5.6.0",
-      "C:\\xampp\\htdocs\\edem\\admin"
-    ]
-  ],
-  "_from": "@fullcalendar/common@5.6.0",
+  "_from": "@fullcalendar/common@~5.6.0",
   "_id": "@fullcalendar/common@5.6.0",
   "_inBundle": false,
   "_integrity": "sha512-4i4kZDVpRvfdKoJHRljDHsoYu466Odor9FhekP+67dIUoNnXSDTnQRmGfURwiF4RwaTsdWKe2+B7gors9G7zZA==",
   "_location": "/@fullcalendar/common",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "@fullcalendar/common@5.6.0",
+    "raw": "@fullcalendar/common@~5.6.0",
     "name": "@fullcalendar/common",
     "escapedName": "@fullcalendar%2fcommon",
     "scope": "@fullcalendar",
-    "rawSpec": "5.6.0",
+    "rawSpec": "~5.6.0",
     "saveSpec": null,
-    "fetchSpec": "5.6.0"
+    "fetchSpec": "~5.6.0"
   },
   "_requiredBy": [
     "/@fullcalendar/bootstrap",
@@ -31,8 +25,9 @@
     "/@fullcalendar/timegrid"
   ],
   "_resolved": "https://registry.npmjs.org/@fullcalendar/common/-/common-5.6.0.tgz",
-  "_spec": "5.6.0",
-  "_where": "C:\\xampp\\htdocs\\edem\\admin",
+  "_shasum": "27206084df07fbab33a67478b0d9b05542b09b79",
+  "_spec": "@fullcalendar/common@~5.6.0",
+  "_where": "E:\\xampp\\htdocs\\edem\\admin\\node_modules\\@fullcalendar\\bootstrap",
   "author": {
     "name": "Adam Shaw",
     "email": "arshaw@arshaw.com",
@@ -41,9 +36,11 @@
   "bugs": {
     "url": "https://fullcalendar.io/reporting-bugs"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "tslib": "^2.0.3"
   },
+  "deprecated": false,
   "description": "internal package",
   "devDependencies": {
     "@fullcalendar/core-preact": "5.6.0"

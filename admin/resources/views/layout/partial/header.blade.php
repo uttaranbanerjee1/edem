@@ -33,26 +33,14 @@
             </div>
         </form>
 
-        <div class="menu-item dropdown">
+        <div class="menu-item">
             <a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
                 <div class="menu-img online">
                     <img src="/assets/img/user/user.jpg" alt="" class="mw-100 mh-100 rounded-circle" />
                 </div>
-                <div class="menu-text">seantheme@gmail.com</div>
+                <div class="menu-text">sven@edmadvisory.com</div>
             </a>
-            <div class="dropdown-menu dropdown-menu-end me-lg-3">
-                <a class="dropdown-item d-flex align-items-center" href="#">Edit Profile <i
-                        class="fa fa-user-circle fa-fw ms-auto text-gray-400 fs-16px"></i></a>
-                <a class="dropdown-item d-flex align-items-center" href="#">Inbox <i
-                        class="fa fa-envelope fa-fw ms-auto text-gray-400 fs-16px"></i></a>
-                <a class="dropdown-item d-flex align-items-center" href="#">Calendar <i
-                        class="fa fa-calendar-alt fa-fw ms-auto text-gray-400 fs-16px"></i></a>
-                <a class="dropdown-item d-flex align-items-center" href="#">Setting <i
-                        class="fa fa-wrench fa-fw ms-auto text-gray-400 fs-16px"></i></a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item d-flex align-items-center" href="#">Log Out <i
-                        class="fa fa-toggle-off fa-fw ms-auto text-gray-400 fs-16px"></i></a>
-            </div>
+
         </div>
     </div>
     <!-- END menu -->

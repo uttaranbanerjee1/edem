@@ -25,7 +25,7 @@ return [
       'icon' => 'fas fa-users',
       'text' => 'Users'
     ],[
-      'url' => '/widgets',
+      'url' => '/search-history',
       'icon' => 'fas fa-history',
       'text' => 'Search History'
     ], [
@@ -44,13 +44,14 @@ return [
       'text' => 'Site Management ',
       'is_header' => true
     ], [
-      'url' => '/profile',
-      'icon' => 'fa fa-user-circle',
-      'text' => 'Profile'
-    ], [
       'url' => '/settings',
       'icon' => 'fa fa-cog',
       'text' => 'Settings'
+    ],[
+      'url' => '/page/login',
+      'icon' => 'fa fa-sign-out-alt',
+      'text' => 'Logout'
+      
     ]
   ]
 ];

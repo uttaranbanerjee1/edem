@@ -1,32 +1,27 @@
 {
-  "_args": [
-    [
-      "bootstrap-table@1.18.3",
-      "C:\\xampp\\htdocs\\edem\\admin"
-    ]
-  ],
-  "_from": "bootstrap-table@1.18.3",
+  "_from": "bootstrap-table@^1.18.2",
   "_id": "bootstrap-table@1.18.3",
   "_inBundle": false,
   "_integrity": "sha512-/eFLkldDlNFi37qC/d9THfRVxMUGD34E8fQBFtXJLDHLBOVKWDTq7BV+udoP7k3FfCEyhM1jWQnQ0rMQdBv//w==",
   "_location": "/bootstrap-table",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "bootstrap-table@1.18.3",
+    "raw": "bootstrap-table@^1.18.2",
     "name": "bootstrap-table",
     "escapedName": "bootstrap-table",
-    "rawSpec": "1.18.3",
+    "rawSpec": "^1.18.2",
     "saveSpec": null,
-    "fetchSpec": "1.18.3"
+    "fetchSpec": "^1.18.2"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/bootstrap-table/-/bootstrap-table-1.18.3.tgz",
-  "_spec": "1.18.3",
-  "_where": "C:\\xampp\\htdocs\\edem\\admin",
+  "_shasum": "071173f8071235563a7361b5ce7f5ba613eb37b4",
+  "_spec": "bootstrap-table@^1.18.2",
+  "_where": "E:\\xampp\\htdocs\\edem\\admin",
   "author": {
     "name": "wenzhixin",
     "email": "wenzhixin2010@gmail.com",
@@ -35,6 +30,8 @@
   "bugs": {
     "url": "https://github.com/wenzhixin/bootstrap-table/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)",
   "devDependencies": {
     "@babel/core": "^7.4.5",

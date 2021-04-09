@@ -6,8 +6,15 @@
 <!-- BEGIN login -->
 <div class="login">
     <!-- BEGIN login-content -->
+
     <div class="login-content">
 
+        <div class="text-center mb-5">
+            <a href="#" class="brand-logo">
+
+                <img src="{{asset('/assets/img/Kopie-von-logo-edm_4.-Logo-No-Sub.png')}}" alt="" height="80" />
+            </a>
+        </div>
         <form action="{{url('/index')}}" method="GET" name="login_form">
             <h1 class="text-center">Sign In</h1>
             <div class="text-muted text-center mb-4">
@@ -21,7 +28,7 @@
             <div class="mb-3">
                 <div class="d-flex">
                     <label class="form-label">Password</label>
-                    <a href="#" class="ms-auto text-muted">Forgot password?</a>
+                    <a href="{{url('/forget_password')}}" class="ms-auto text-muted">Forgot password?</a>
                 </div>
                 <input type="password" class="form-control form-control-lg fs-15px" value=""
                     placeholder="Enter your password" />
@@ -33,9 +40,7 @@
                 </div>
             </div>
             <button type="submit" class="btn btn-primary btn-lg d-block w-100 fw-500 mb-3">Sign In</button>
-            <div class="text-center text-muted">
-                Don't have an account yet? <a href="/page/register">Sign up</a>.
-            </div>
+
         </form>
     </div>
     <!-- END login-content -->

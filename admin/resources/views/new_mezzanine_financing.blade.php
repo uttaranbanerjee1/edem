@@ -77,7 +77,7 @@
                         <div class="d-flex bd-highlight mb-3">
                             <div class="me-auto p-2 bd-highlight">
                                 <h1 class="page-header">
-                                    Create new senior financing
+                                    Create new Mezzanine Financingg
                                 </h1>
                             </div>
 

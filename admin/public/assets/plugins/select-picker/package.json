@@ -1,32 +1,27 @@
 {
-  "_args": [
-    [
-      "select-picker@0.3.2",
-      "C:\\xampp\\htdocs\\edem\\admin"
-    ]
-  ],
-  "_from": "select-picker@0.3.2",
+  "_from": "select-picker@^0.3.2",
   "_id": "select-picker@0.3.2",
   "_inBundle": false,
   "_integrity": "sha512-yxQHrTic2JUbC8ubUiNNp5Y8nsvAhQzn2CeAzUp5bRMgaLsJEYJkpozos97MPhiRx2SUOBBtGHyzfqFvmG50Qg==",
   "_location": "/select-picker",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "select-picker@0.3.2",
+    "raw": "select-picker@^0.3.2",
     "name": "select-picker",
     "escapedName": "select-picker",
-    "rawSpec": "0.3.2",
+    "rawSpec": "^0.3.2",
     "saveSpec": null,
-    "fetchSpec": "0.3.2"
+    "fetchSpec": "^0.3.2"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/select-picker/-/select-picker-0.3.2.tgz",
-  "_spec": "0.3.2",
-  "_where": "C:\\xampp\\htdocs\\edem\\admin",
+  "_shasum": "09f78b3deabdd500ef4c94c2aba431b3bd23a9ed",
+  "_spec": "select-picker@^0.3.2",
+  "_where": "E:\\xampp\\htdocs\\edem\\admin",
   "author": {
     "name": "Adam Uhlir",
     "email": "hello@adam-uhlir.me"
@@ -34,6 +29,8 @@
   "bugs": {
     "url": "https://github.com/AuHau/select-picker#issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Multi-select tags like picker as plugin for jQuery",
   "devDependencies": {
     "bower": "^1.6.3",

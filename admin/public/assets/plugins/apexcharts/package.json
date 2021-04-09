@@ -1,32 +1,27 @@
 {
-  "_args": [
-    [
-      "apexcharts@3.26.0",
-      "C:\\xampp\\htdocs\\edem\\admin"
-    ]
-  ],
-  "_from": "apexcharts@3.26.0",
+  "_from": "apexcharts@^3.25.0",
   "_id": "apexcharts@3.26.0",
   "_inBundle": false,
   "_integrity": "sha512-zdYHs3k3tgmCn1BpYLj7rhGEndBYF33Pq1+g0ora37xAr+3act5CJrpdXM2jx2boVUyXgavoSp6sa8WpK7RkSA==",
   "_location": "/apexcharts",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "apexcharts@3.26.0",
+    "raw": "apexcharts@^3.25.0",
     "name": "apexcharts",
     "escapedName": "apexcharts",
-    "rawSpec": "3.26.0",
+    "rawSpec": "^3.25.0",
     "saveSpec": null,
-    "fetchSpec": "3.26.0"
+    "fetchSpec": "^3.25.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/apexcharts/-/apexcharts-3.26.0.tgz",
-  "_spec": "3.26.0",
-  "_where": "C:\\xampp\\htdocs\\edem\\admin",
+  "_shasum": "a78abc108b2e1b3086a738f0ec7c98e292f4a14b",
+  "_spec": "apexcharts@^3.25.0",
+  "_where": "E:\\xampp\\htdocs\\edem\\admin",
   "author": {
     "name": "Juned Chhipa",
     "email": "juned.chhipa@gmail.com"
@@ -34,6 +29,7 @@
   "bugs": {
     "url": "https://github.com/apexcharts/apexcharts.js/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "svg.draggable.js": "^2.2.2",
     "svg.easing.js": "^2.0.0",
@@ -42,6 +38,7 @@
     "svg.resize.js": "^1.4.3",
     "svg.select.js": "^3.0.1"
   },
+  "deprecated": false,
   "description": "A JavaScript Chart Library",
   "devDependencies": {
     "@babel/core": "^7.8.7",
