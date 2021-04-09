@@ -2,10 +2,7 @@
 
 @section('title', 'Dashboard')
 
-@push('scripts')
-<script src="assets/plugins/apexcharts/dist/apexcharts.min.js"></script>
-<script src="assets/js/demo/dashboard.demo.js"></script>
-@endpush
+
 
 @section('content')
 <!-- BEGIN #content -->

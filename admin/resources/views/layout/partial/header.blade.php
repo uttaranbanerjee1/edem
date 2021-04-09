@@ -19,7 +19,7 @@
         </div>
 
         <a href="#" class="brand-logo">
-            <img src="/assets/img/Kopie-von-logo-edm_4.-Logo-No-Sub.png" alt="" height="80" />
+            <img src="{{asset('assets/img/Kopie-von-logo-edm_4.-Logo-No-Sub.png')}}" alt="" height="80" />
         </a>
     </div>
     <!-- END brand -->
@@ -36,7 +36,7 @@
         <div class="menu-item">
             <a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
                 <div class="menu-img online">
-                    <img src="/assets/img/user/user.jpg" alt="" class="mw-100 mh-100 rounded-circle" />
+                    <img src="{{asset('assets/img/user/user.jpg')}}" alt="" class="mw-100 mh-100 rounded-circle" />
                 </div>
                 <div class="menu-text">sven@edmadvisory.com</div>
             </a>
