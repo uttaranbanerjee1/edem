@@ -72,7 +72,10 @@
                                         <div class="flex-fill">
                                             <div>Password</div>
                                         </div>
-
+                                        <div>
+                                            <a href="#passwordEdit" data-bs-toggle="modal"
+                                                class="btn btn-default width-200">Change Password</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +93,7 @@
                                         <div class="flex-fill">
                                             <div>Language enabled</div>
                                             <div class="text-gray-700">
-                                                English (default), Chinese, France, Portuguese, Japense
+                                                English (default), Germany
                                             </div>
                                         </div>
                                         <div>
@@ -124,67 +127,10 @@
                         </div>
                         <!-- END #languages -->
 
-                        <!-- BEGIN #system -->
-                        <div id="system" class="mb-5">
-                            <h4><i class="far fa-hdd fa-fw"></i> System</h4>
-                            <p>System storage, bandwidth and database setting</p>
-                            <div class="card">
-                                <div class="list-group list-group-flush">
-                                    <div class="list-group-item d-flex align-items-center">
-                                        <div class="flex-fill">
-                                            <div>Web storage</div>
-                                            <div class="text-gray-700">
-                                                40.8gb / 100gb
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <a href="#modalEdit" data-bs-toggle="modal"
-                                                class="btn btn-default width-100">Manage</a>
-                                        </div>
-                                    </div>
-                                    <div class="list-group-item d-flex align-items-center">
-                                        <div class="flex-fill">
-                                            <div>Monthly bandwidth</div>
-                                            <div class="text-gray-700">
-                                                Unlimited
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-group-item d-flex align-items-center">
-                                        <div class="flex-fill">
-                                            <div>Database</div>
-                                            <div class="text-gray-700">
-                                                MySQL version 8.0.19
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <a href="#modalEdit" data-bs-toggle="modal"
-                                                class="btn btn-default width-100 disabled">Update</a>
-                                        </div>
-                                    </div>
-                                    <div class="list-group-item d-flex align-items-center">
-                                        <div class="flex-fill">
-                                            <div>Platform</div>
-                                            <div class="text-gray-700">
-                                                <?php
-echo 'Current PHP version : ' . phpversion();
-  // prints e.g. '2.0' or nothing if the extension isn't enabled
-  echo phpversion('tidy')."\n";
-?>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <a href="#modalEdit" data-bs-toggle="modal"
-                                                class="btn btn-success width-100">Update</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END #system -->
+
 
                         <!-- BEGIN #resetSettings -->
-                        <div id="resetSettings" class="mb-5">
+                        <div id="backupsettings" class="mb-5">
                             <h4><i class="fa fa-redo fa-fw"></i> Backup</h4>
                             <p>Take a full database backup</p>
                             <div class="card">
@@ -216,6 +162,63 @@ echo 'Current PHP version : ' . phpversion();
                             </div>
                         </div>
                         <!-- END #resetSettings -->
+
+
+                        <!-- BEGIN #system -->
+                        <div id="systeminfo" class="mb-5">
+                            <h4><i class="far fa-hdd fa-fw"></i> System</h4>
+                            <p>Web server information, Website information</p>
+                            <div class="card">
+                                <div class="list-group list-group-flush">
+                                    <div class="list-group-item d-flex align-items-center">
+                                        <div class="flex-fill">
+                                            <div>Total Users</div>
+                                            <div class="text-gray-700">
+                                                124 Users registered on your site
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#modalEdit" data-bs-toggle="modal"
+                                                class="btn btn-default width-200">Manage Users</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item d-flex align-items-center">
+                                        <div class="flex-fill">
+                                            <div>Last Backup Taken</div>
+                                            <div class="text-gray-700">
+                                                <i class="fas fa-lg fa-fw  fa-info-circle"></i> 23 Days Ago
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item d-flex align-items-center">
+                                        <div class="flex-fill">
+                                            <div>Database</div>
+                                            <div class="text-gray-700">
+                                                MySQL version 8.0.19
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#modalEdit" data-bs-toggle="modal"
+                                                class="btn btn-default width-100 disabled">Update</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item d-flex align-items-center">
+                                        <div class="flex-fill">
+                                            <div>Platform</div>
+                                            <div class="text-gray-700">
+                                                <?php
+echo 'Current PHP version : ' . phpversion();
+  // prints e.g. '2.0' or nothing if the extension isn't enabled
+  echo phpversion('tidy')."\n";
+?>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END #system -->
                     </div>
                     <!-- END col-9-->
                     <!-- BEGIN col-3 -->
@@ -224,15 +227,14 @@ echo 'Current PHP version : ' . phpversion();
                         <nav id="sidebar-bootstrap" class="navbar navbar-sticky d-none d-xl-block">
                             <nav class="nav">
                                 <a class="nav-link" href="#general" data-bs-toggle="scroll-to">General</a>
-                                <a class="nav-link" href="#notifications" data-bs-toggle="scroll-to">Notifications</a>
-                                <a class="nav-link" href="#privacyAndSecurity" data-bs-toggle="scroll-to">Privacy and
-                                    security</a>
-                                <a class="nav-link" href="#payment" data-bs-toggle="scroll-to">Payment</a>
-                                <a class="nav-link" href="#shipping" data-bs-toggle="scroll-to">Shipping</a>
-                                <a class="nav-link" href="#mediaAndFiles" data-bs-toggle="scroll-to">Media and Files</a>
+
                                 <a class="nav-link" href="#languages" data-bs-toggle="scroll-to">Languages</a>
-                                <a class="nav-link" href="#system" data-bs-toggle="scroll-to">System</a>
-                                <a class="nav-link" href="#resetSettings" data-bs-toggle="scroll-to">Reset settings</a>
+
+                                <a class="nav-link" href="#backupsettings" data-bs-toggle="scroll-to">Backup
+                                    settings</a>
+
+                                <a class="nav-link" href="#systeminfo" data-bs-toggle="scroll-to">System
+                                    Info</a>
                             </nav>
                         </nav>
                         <!-- END #sidebar-bootstrap -->
@@ -304,25 +306,6 @@ echo 'Current PHP version : ' . phpversion();
                     </div>
                 </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Password </label>
-                    <div class="row row-space-10">
-                        <div class="col-12">
-                            <input type="password" class="form-control" placeholder="Enter new password" />
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Confirm Password </label>
-                    <div class="row row-space-10">
-                        <div class="col-12">
-                            <input type="password" class="form-control" placeholder="Confirm password" />
-                        </div>
-
-                    </div>
-                </div>
 
 
             </div>
@@ -391,6 +374,48 @@ echo 'Current PHP version : ' . phpversion();
                         <option value="Germany">Germany</option>
 
                     </select>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Language Edit modal end -->
+
+
+<!-- Language Edit modal start -->
+<div class="modal fade" id="passwordEdit">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Change Password</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="mb-3">
+                    <label class="form-label">Password </label>
+                    <div class="row row-space-10">
+                        <div class="col-12">
+                            <input type="password" class="form-control" placeholder="Enter new password" />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Confirm Password </label>
+                    <div class="row row-space-10">
+                        <div class="col-12">
+                            <input type="password" class="form-control" placeholder="Confirm password" />
+                        </div>
+
+                    </div>
                 </div>
 
 
