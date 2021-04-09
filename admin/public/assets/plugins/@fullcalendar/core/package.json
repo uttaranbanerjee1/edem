@@ -1,28 +1,33 @@
 {
-  "_from": "@fullcalendar/core@^5.5.1",
+  "_args": [
+    [
+      "@fullcalendar/core@5.6.0",
+      "C:\\xampp\\htdocs\\edem\\admin"
+    ]
+  ],
+  "_from": "@fullcalendar/core@5.6.0",
   "_id": "@fullcalendar/core@5.6.0",
   "_inBundle": false,
   "_integrity": "sha512-RK7WM2oWAd4GJ3Ib6a3ftTmz2UxUD4N2JmH8ml+E3bprS9/wjnfvZppikx30UxKUBCAzQcBGOKV8GXh0Wk7FvA==",
   "_location": "/@fullcalendar/core",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@fullcalendar/core@^5.5.1",
+    "raw": "@fullcalendar/core@5.6.0",
     "name": "@fullcalendar/core",
     "escapedName": "@fullcalendar%2fcore",
     "scope": "@fullcalendar",
-    "rawSpec": "^5.5.1",
+    "rawSpec": "5.6.0",
     "saveSpec": null,
-    "fetchSpec": "^5.5.1"
+    "fetchSpec": "5.6.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@fullcalendar/core/-/core-5.6.0.tgz",
-  "_shasum": "c0ea59235047828c9d0409432966bebc71df0bec",
-  "_spec": "@fullcalendar/core@^5.5.1",
-  "_where": "E:\\xampp\\htdocs\\edem\\admin",
+  "_spec": "5.6.0",
+  "_where": "C:\\xampp\\htdocs\\edem\\admin",
   "author": {
     "name": "Adam Shaw",
     "email": "arshaw@arshaw.com",
@@ -32,13 +37,11 @@
   "bugs": {
     "url": "https://fullcalendar.io/reporting-bugs"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@fullcalendar/common": "~5.6.0",
     "preact": "^10.0.5",
     "tslib": "^2.0.3"
   },
-  "deprecated": false,
   "description": "Provides core functionality, including the Calendar class",
   "devDependencies": {
     "@fullcalendar/core-preact": "5.6.0"
