@@ -3,7 +3,7 @@
 @section('title', 'Site Settings')
 
 @push('scripts')
-<script src="/assets/js/demo/sidebar-scrollspy.demo.js"></script>
+<script src="{{env('APP_URL')}}/assets/js/demo/sidebar-scrollspy.demo.js"></script>
 
 
 @endpush
