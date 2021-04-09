@@ -32,10 +32,10 @@ return [
       'icon' => 'fas fa-server',
       'text' => 'Bank Database',
       'children' => [[
-          'url' => 'banks/senior_financing',
+          'url' => '/banks/senior_financing',
           'text' => 'Senior Financing'
         ], [
-          'url' => 'banks/mezzanine_financing',
+          'url' => '/banks/mezzanine_financing',
           'text' => 'Mezzanine Financing'
         ]]
     ],  [
@@ -44,11 +44,11 @@ return [
       'text' => 'Site Management ',
       'is_header' => true
     ], [
-      'url' => 'settings',
+      'url' => '/settings',
       'icon' => 'fa fa-cog',
       'text' => 'Settings'
     ],[
-      'url' => 'page/login',
+      'url' => '/page/login',
       'icon' => 'fa fa-sign-out-alt',
       'text' => 'Logout'
       
